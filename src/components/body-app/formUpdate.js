@@ -77,8 +77,13 @@ class FormUpdate extends React.Component{
                     <div className="form-items">
                         <p className="form-items-label">Tên: </p>
                         <div className="form-input-container">
-                            <input type="text" className="form-items-input" name="nameTodo" placeholder="thêm tên công việc ..."
-                                onChange={this.handleChange} value={this.state.nameTodo} />
+                            <input type="text" 
+                                className="form-items-input" 
+                                name="nameTodo" placeholder="thêm tên công việc ..."
+                                onChange={this.handleChange} 
+                                value={this.state.nameTodo} 
+                                required
+                                />
                         </div>
                     </div>
                     <div className="form-items">

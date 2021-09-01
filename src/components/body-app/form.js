@@ -76,6 +76,7 @@ class Form extends React.Component{
                                     placeholder="thêm tên công việc ..." 
                                     onChange={this.handleChange}
                                     value={this.state.nameTodo}
+                                    required
                                 />
                             </div>
                         </div>
